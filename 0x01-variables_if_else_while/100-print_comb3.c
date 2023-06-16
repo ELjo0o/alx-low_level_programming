@@ -2,10 +2,10 @@
 #include<ctype.h>
 
 /**
-*main - Prints all combinations of two digits with,
-* and space followed by new line
+* main - Prints all combinations of two digits with,
 *
-*Return: returns 0
+*
+*Return: 0 (Success)
 */
 
 
@@ -13,7 +13,7 @@ int main(void)
 {
 	int first, second;
 
-	for (first = 0; first <= 9 first++)
+	for (first = 0; first <= 9; first++)
 	{
 		for (second = 1; second <= 10; second++)
 		{
