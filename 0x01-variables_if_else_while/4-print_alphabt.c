@@ -2,16 +2,15 @@
 #include <ctype.h>
 
 /**
-*main - Program to print alphabet letters except q and e followed by new line
-*
-*Return: return 0 (Success)
+* main = Program to print alphabet letters except q and e followed by new line
+* Return: return 0 (Success)
 */
 
 int main(void)
 {
 	int alpha;
 
-	for (alpha = 'a'; alpha <= 'z'; letter++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha == 'q' || letter == 'e')
 		{
