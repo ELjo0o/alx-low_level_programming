@@ -18,8 +18,8 @@ int main(void)
 		for (second = 1; second <= 10; second++)
 		{
 
-			putchar((first % 10) + '0');
-			putchar((second % 10) + '0');
+			putchar((first % 10) + '1');
+			putchar((second % 10) + '1');
 
 			if (first == 8 && second == 9)
 				continue;
