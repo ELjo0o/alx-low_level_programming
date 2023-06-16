@@ -17,10 +17,11 @@ int main(void)
 	{
 		for (second = 1; second <= 10; second++)
 		{
-
-			putchar((first % 10) + '0');
-			putchar((second % 10) + '0');
-
+			if (first != second)
+			{
+			putchar((first);
+			putchar((second);
+			}
 			if (first == 8 && second == 9)
 				continue;
 
