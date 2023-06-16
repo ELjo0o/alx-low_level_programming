@@ -13,15 +13,15 @@ int main(void)
 {
 	int first, second;
 
-	for (first = 0; first <= 9; first++)
+	for (first = '0'; first <= '9'; first++)
 	{
-		for (second = 1; second <= 10; second++)
+		for (second = '1'; second <= '10'; second++)
 		{
 
 			putchar((first % 10) + '0');
-			putchar((second % 10) + '1');
+			putchar((second % 10) + '0');
 
-			if (first == 8 && second == 9)
+			if (first == '8' && second == '9')
 				continue;
 
 			putchar(',');
