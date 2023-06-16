@@ -11,18 +11,18 @@
 
 int main(void)
 {
-	int first, second;
+	int a, b;
 
-	for (first = 0; first <= 9; first++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (second = 1; second <= 10; second++)
+		for (b = 1; b <= 10; b++)
 		{
-			if (first != second)
+			if (a != b)
 			{
-			putchar((first);
-			putchar((second);
+			putchar((a);
+			putchar((b);
 
-			if (first == 8 && second == 9)
+			if (a == 8 && b == 9)
 				continue;
 
 			putchar(',');
