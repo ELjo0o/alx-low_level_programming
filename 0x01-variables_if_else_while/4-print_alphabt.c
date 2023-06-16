@@ -2,8 +2,9 @@
 #include <ctype.h>
 
 /**
-* main = Program to print alphabet letters except q and e followed by new line
-* Return: return 0 (Success)
+* main - prints out the alphabet in lowercase except for 'q,e'
+*
+* Return: 0 (Success).
 */
 
 int main(void)
