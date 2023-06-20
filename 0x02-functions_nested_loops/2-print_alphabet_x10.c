@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 	int line;
 	char alpha;
 
-	for (line = '0'; line = <= '9'; line++)
+	for (line = '0'; line <= '9'; line++)
 	{
 		_putchar(line);
 
@@ -21,5 +21,5 @@ void print_alphabet_x10(void)
 		}
 	}
 
-	_putchar('\n')
+	_putchar('\n');
 }
