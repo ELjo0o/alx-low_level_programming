@@ -7,7 +7,7 @@
 */
 
 
-int main(void);
+int _putchar(char x);
 {
 	char put[] = "_putchar";
 
