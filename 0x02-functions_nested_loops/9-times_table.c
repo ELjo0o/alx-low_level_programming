@@ -2,12 +2,12 @@
 
 
 /**
-*times_table - prints the 9 times table.
+*times_teble - prints the 9 times table.
 *Return: (0)
 */
 
 
-void times_table(void)
+void times_teble(void)
 {
 	int digit, line, result;
 
