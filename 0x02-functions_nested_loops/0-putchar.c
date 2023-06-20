@@ -1,6 +1,4 @@
-#include<stdio.h>
 #include "main.h"
-
 
 /*
 * main - write a program that print a _putchar.
@@ -11,8 +9,14 @@
 
 int main(void)
 {
-	char x = "_putchar";
+	char put[] = "_putchar";
 
-	putchar("%c\n", x);
+	int x;
+
+	for (x = 0; x < 8; x++)
+	{
+		_putchar(put[x]);
+	}
+	_putchar('\n');
 	return (0);
 }
