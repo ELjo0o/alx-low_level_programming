@@ -1,21 +1,21 @@
 #include "main.h"
 
-/*
-* main - write a program that print a _putchar.
-*
-* return: (0) (Success).
+/**
+* main - Entry point of the program.
+* Description: print _putchar end bu new line.
+* Return: (0) (Success).
 */
 
 
-int _putchar(char x);
+int main(void)
 {
-	char put[] = "_putchar";
+	char goal[] = "_putchar";
 
 	int x;
 
 	for (x = 0; x < 8; x++)
 	{
-		_putchar(put[x]);
+		_putchar(goal[x]);
 	}
 	_putchar('\n');
 	return (0);
