@@ -9,28 +9,28 @@
 
 void times_table(void)
 {
-	int digit, line, result;
+	int a, b, sum;
 
-	for (digit = 0; digit <= 9; digit++)
+	for (a = 0; a <= 9; a++)
 	{
 		_putchar('0');
 
-	for (line = 1; line <= 9; line++)
-	{
-		_putchar(',');
-		_putchar(' ');
-		result = digit * line;
-	if (result <= 9)
-	{
-		_putchar(' ');
-	}
-	else
-	{
-		_putchar((result / 10) + '0');
-
-		_putchar((result % 10) + '0');
-	}
-	}
-	_putchar('\n');
+		for (b = 1; b <= 9; b++)
+		{
+			sum = a * b;
+			_putchar('0');
+			_putchar(' ');
+			if (sum <= 9)
+			{
+				_putchar(' ');
+				_putchar(sum + '0');
+			}
+			else
+			{
+				_putchar((sum / 10) + '0');
+				_putchar((sum % 10) + '0');
+			}
+		}
+		_putchar('\n');
 	}
 }
