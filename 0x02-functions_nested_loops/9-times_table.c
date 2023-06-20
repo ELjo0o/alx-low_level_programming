@@ -2,24 +2,24 @@
 
 
 /**
-*times_table - prints the 9 times table.
+*time_table - prints the 9 times table.
 *Return: (0)
 */
 
 
-void times_table(void)
+void time_table(void)
 {
-	int digit, mult, result;
+	int digit, line, result;
 
 	for (digit = 0; digit <= 9; digit++)
 	{
 		_putchar('0');
 
-	for (mult = 1; mult <= 9; mult++)
+	for (line = 1; line <= 9; line++)
 	{
 		_putchar(',');
 		_putchar(' ');
-		result = digit * mult;
+		result = digit * line;
 	if (result <= 9)
 	{
 		_putchar(' ');
