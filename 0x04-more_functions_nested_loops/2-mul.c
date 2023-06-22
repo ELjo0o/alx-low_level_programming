@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -10,10 +11,5 @@
 
 int mul(int a, int b)
 {
-	int a;
-	int b:
-	int c = a * b;
-
-	_putchar("%d\n", c)
-	return (0);
+	return (a * b);
 }
