@@ -15,10 +15,10 @@ void more_numbers(void)
 		{
 			if (x2 > 9)
 			{
-				putchar((x2 / 10) + '0');
+				_putchar((x2 / 10) + '0');
 			}
-			putchar((x2 % 10) + '0');
+			_putchar((x2 % 10) + '0');
 		}
-		putchar(10);
+		_putchar(10);
 	}
 }
