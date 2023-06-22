@@ -9,10 +9,9 @@ void print_numbers(void)
 {
 	int x;
 
-	for (x = 0; x <= 9; x++)
+	for (x = 48; x <= 57; x++)
 	{
-		_putchar("%d", x);
+		_putchar(x);
 	}
-	_putchar('\n');
-	return (0);
+	_putchar(10);
 }
