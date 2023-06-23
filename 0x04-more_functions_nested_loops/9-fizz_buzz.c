@@ -10,7 +10,8 @@
 int main(void)
 {
 		int num;
-		while(num++ < 100)
+
+		for (num = 1; num <= 100; n++)
 
 		if ((num % 3 == 0) && (num % 5 == 0))
 		{
