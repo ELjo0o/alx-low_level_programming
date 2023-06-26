@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdout.h>
 /**
 *_puts - a function that prints a string, followed by a new line, to stdout.
 *@str: the string.
@@ -13,8 +13,8 @@ void _puts(char *str)
 
 	while (str[count] != '\0')
 	{
-		_putchar(str[count]);
+		_puts(str[count]);
 		count++;
 	}
-	_putchar('\n');
+	_puts('\n');
 }
