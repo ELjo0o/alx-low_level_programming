@@ -10,15 +10,12 @@
 
 void _puts(char *str)
 {
-	int count= 'a'
+	int count = '0';
 
-	for (count = 'a'; count <= 'z'; count++)
+	while (str[count] != '\0')
 	{
-		while (str[count] != '\0')
-		{
-			_puts(str[count]);
-			count++;
-		}
+		_puts(str[count]);
+		count++;
 	}
 	_puts('\n');
 }
