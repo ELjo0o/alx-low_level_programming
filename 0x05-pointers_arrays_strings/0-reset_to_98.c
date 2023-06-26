@@ -12,16 +12,5 @@
 
 void reset_to_98(int *n)
 {
-	int *n;
-
-	if (*n == 98)
-	{
-		_putchar("%d\n", *n);
-	}
-	else
-	{
-		_putchar("%d\n", *n);
-	}
-	_putchar('\n');
-	return (0);
+	*n = 98;
 }
