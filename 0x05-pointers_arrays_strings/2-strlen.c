@@ -6,12 +6,11 @@
 *Return: (0).
 */
 
-
 int _strlen(char *s)
 {
 
+	char *s;
 	int len;
 	len = strlen(*s);
-
 
 }
