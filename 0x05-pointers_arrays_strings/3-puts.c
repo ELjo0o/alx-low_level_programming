@@ -14,7 +14,7 @@ void _puts(char *str)
 
 	for (index = 0; str[index] != '\0'; index++)
 	{
-		puts(str[index]);
+		_puts(str[index]);
 	}
-	puts('\n');
+	_puts('\n');
 }
