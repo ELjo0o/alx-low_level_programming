@@ -6,7 +6,7 @@
 * Return: (-1).
 */
 
-int factorial(int n);
+int factorial(int n)
 {
 	int fac;
 
