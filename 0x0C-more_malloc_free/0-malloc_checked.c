@@ -2,7 +2,7 @@
 
 /**
 * malloc_checked - a function that allocates memory using malloc.
-* @b: int number. 
+* @b: int number.
 * Return: termination with a status value of 98.
 */
 
